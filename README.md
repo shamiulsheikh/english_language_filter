@@ -479,3 +479,7 @@ Check the `unknown_rows` count in the manifest. If it's a large fraction of your
 - **Toxic/harmful content** — no content filtering
 - **Domain relevance** — off-topic English content passes
 - **Encoding issues** — mojibake (garbled encoding) may or may not be detected depending on the byte patterns
+
+---
+
+*Built by Sheikh Shamiul Huda*
