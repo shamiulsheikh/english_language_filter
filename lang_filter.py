@@ -6,6 +6,8 @@ Filter JSONL files to keep only English only rows using fasttext
 with confidence thresholding, chunked detection for mixed-language documents,
 byte-range file splitting for large files, and multiprocessing worker pool.
 
+Author: Sheikh Shamiul Huda
+
 Input: CSV file with (path, key) columns — path can be folder or file.
 Output: per-file _en.jsonl, _non_selected.jsonl, _unknown.jsonl,
         manifest CSV, manifest JSON.
@@ -55,6 +57,8 @@ except ImportError:
 import json  # always needed for json.dump in manifest writing
 from pathlib import Path
 from collections import defaultdict
+
+__author__ = "Sheikh Shamiul Huda"
 
 try:
     from tqdm import tqdm
